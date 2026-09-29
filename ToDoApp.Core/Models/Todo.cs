@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace ToDoApp.Core.Models
+{
+    public class Todo
+    {
+        public int Id { get; set; }
+        public string Title { get; set; }
+        public string? Description { get; set; }
+        public bool IsCompleted { get; set; }
+        public DateTime CreatedData { get; set; }
+        public DateTime? DueDate { get; set; }
+    }
+}

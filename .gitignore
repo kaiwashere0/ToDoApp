@@ -1,0 +1,36 @@
+.vs/
+*.user
+*.suo
+
+# Build
+bin/
+obj/
+
+# Rider
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# NuGet
+*.nupkg
+packages/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+
+# Test results
+TestResults/
+
+# User secrets
+secrets.json
+
+# JetBrains
+*.dotCover
+
+# Others
+*.cache
